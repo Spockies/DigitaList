@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="steven.sripong.com.digitalist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditListActivity"
+            android:label="@string/task_list"
+            android:parentActivityName=".MainMenuActivity">
+        </activity>
+        <activity
+            android:name=".AddActivity"
+            android:label="@string/new_task_name"
+            android:parentActivityName=".EditListActivity">
+        </activity>
+
+        <activity
+            android:name=".EditActivity"
+            android:label="@string/edit_task_name"
+            android:parentActivityName=".EditListActivity">
+        </activity>
+        <activity
+            android:name=".ViewItemListActivity"
+            android:label="@string/list_name"
+            android:parentActivityName=".MainMenuActivity">
+        </activity>
+        <activity
+            android:name=".SelectionAddActivity"
+            android:label="@string/add_name"
+            android:parentActivityName=".ViewItemListActivity">
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="@string/detail_name"
+            android:parentActivityName=".ViewItemListActivity">
+        </activity>
+    </application>
+
+</manifest>

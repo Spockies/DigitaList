@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorPrimary">#39e9ff</color>
+    <color name="ColorPrimaryDark">#4593e6</color>
+    <color name="ColorUrgentPriority">#ffa01f</color>
+    <color name="ColorRegularPriority">#60ff4f</color>
+    <color name="ColorTentativePriority">#ffe229</color>
+    <color name="ColorTask">#d2ffbd</color>
+    <color name="ColorItem">#f3ff9e</color>
+</resources>

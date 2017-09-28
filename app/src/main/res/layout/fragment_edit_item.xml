@@ -14,7 +14,8 @@
         android:layout_height="wrap_content"
         android:text="@string/remove_button"
         android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentRight="true"
+        android:layout_margin="4dp"/>
 
     <View
         android:id="@+id/divider_edit_name"
@@ -29,15 +30,17 @@
         android:layout_height="wrap_content"
         android:text="@string/article_name_text"
         android:layout_below="@id/remove_edit_button"
-        android:padding="4dp"
-        android:textSize="22dip"/>
+        android:textSize="22dip"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="8dp"/>
 
     <EditText
         android:id="@+id/edit_text_article_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/title_text"
-        android:layout_below="@id/text_view_item_name"/>
+        android:layout_below="@id/text_view_item_name"
+        android:layout_marginLeft="8dp"/>
 
     <TextView
         android:id="@+id/text_view_description"
@@ -45,15 +48,17 @@
         android:layout_height="wrap_content"
         android:hint="@string/description_text"
         android:layout_below="@id/edit_text_article_name"
-        android:padding="4dp"
-        android:textSize="22dip"/>
+        android:layout_marginTop="4dp"
+        android:textSize="22dip"
+        android:layout_marginLeft="8dp"/>
 
     <EditText
         android:id="@+id/edit_text_description"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:hint="@string/description_text"
-        android:layout_below="@id/text_view_description"/>
+        android:layout_below="@id/text_view_description"
+        android:layout_marginLeft="8dp"/>
 
 
     <LinearLayout
@@ -67,14 +72,16 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/edit_button"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:layout_margin="4dp"/>
 
         <Button
             android:id="@+id/cancel_edit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/cancel_button"/>
+            android:text="@string/cancel_button"
+            android:layout_margin="4dp"/>
 
     </LinearLayout>
 </RelativeLayout>

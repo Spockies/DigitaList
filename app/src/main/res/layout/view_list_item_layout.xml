@@ -9,11 +9,11 @@
         android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:padding="4dp">
+        android:layout_margin="8dp">
 
         <TextView
             android:id="@+id/view_list_entry_item_name_text_view"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:textSize="@dimen/font_text_size"
@@ -23,11 +23,11 @@
 
         <TextView
             android:id="@+id/view_list_entry_quantity"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Number"
+            android:hint="Number"
             android:textSize="@dimen/font_text_size"
-            android:layout_weight="5"/>
+            android:layout_weight="3"/>
 
     </LinearLayout>
 

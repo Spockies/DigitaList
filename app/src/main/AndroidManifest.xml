@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="steven.sripong.com.digitalist">
+<manifest package="steven.sripong.com.digitalist"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainMenuActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -19,33 +20,63 @@
         <activity
             android:name=".EditListActivity"
             android:label="@string/task_list"
-            android:parentActivityName=".MainMenuActivity">
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".AddActivity"
             android:label="@string/new_task_name"
-            android:parentActivityName=".EditListActivity">
+            android:parentActivityName=".EditListActivity"
+            android:screenOrientation="portrait">
         </activity>
 
         <activity
             android:name=".EditActivity"
             android:label="@string/edit_task_name"
-            android:parentActivityName=".EditListActivity">
+            android:parentActivityName=".EditListActivity"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".ViewItemListActivity"
             android:label="@string/list_name"
-            android:parentActivityName=".MainMenuActivity">
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".SelectionAddActivity"
             android:label="@string/add_name"
-            android:parentActivityName=".ViewItemListActivity">
+            android:parentActivityName=".ViewItemListActivity"
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".DetailActivity"
             android:label="@string/detail_name"
-            android:parentActivityName=".ViewItemListActivity">
+            android:parentActivityName=".ViewItemListActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".HistoryActivity"
+            android:label="@string/history_menu_name"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".DayDetailActivity"
+            android:label="@string/day_activity_name"
+            android:parentActivityName=".HistoryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".TrendActivity"
+            android:label="@string/trend_name"
+            android:parentActivityName=".HistoryActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".GraphActivity"
+            android:label="@string/graph_name"
+            android:parentActivityName=".TrendActivity"
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

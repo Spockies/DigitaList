@@ -11,7 +11,7 @@
         android:textSize="@dimen/font_text_size"
         android:text="Item"
         android:scrollHorizontally="true"
-        android:layout_margin="8dp"/>
+        android:padding="8dp"/>
 
     <View
         android:layout_width="match_parent"

@@ -6,18 +6,27 @@
     <string name="add_name">Add To The List</string>
     <string name="detail_name">Details</string>
     <string name="task_list">Tasks</string>
+    <string name="history_menu_name">History Menu</string>
+    <string name="day_activity_name">Date Selection</string>
+    <string name="trend_name">Trends</string>
+    <string name="graph_name">Detail Graph</string>
+    <string name="shopping_list">Shopping List</string>
     <!--Main Menu-->
     <string name="app_name">DigitaList</string>
-    <string name="view_button">View</string>
-    <string name="edit_button">Edit</string>
+    <string name="view_button">Task List</string>
+   <string name="setup_button">Setup Task Bank</string>
     <string name="history_button">History</string>
 
     <!--Button names-->
     <string name="okay_button">OK</string>
     <string name="cancel_button">Cancel</string>
+    <string name="skip_button">Skip</string>
     <string name="remove_button">Remove</string>
     <string name="add_button">Add</string>
-
+    <string name="date_graph">Check Outs By Date</string>
+    <string name="item_graph">Item Trends</string>
+    <string name="actvity_log_graph">Activity Log</string>
+    <string name="edit_button">Edit</string>
     <!--Priority names-->
     <string name="priority_string">Priority</string>
     <string name="low_priority">Lax</string>
@@ -32,7 +41,10 @@
     <!--Detail names-->
     <string name="title_text">Title</string>
     <string name="description_text">Description</string>
-    <string name="article_name_text">Article Name</string>
+    <string name="article_name_text">Task Name</string>
+    <string name="item_name_text">Item Name</string>
+    <string name="low_value">Low</string>
+    <string name="high_value">High</string>
     <string name="add_item">+</string>
     <string name="no_description">No Description</string>
     <string name="selection_text">Please select the task:</string>
@@ -42,4 +54,7 @@
     <string name="return_button">Return</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <!--Misc-->
+    <string name="checkout_field">Enter Price</string>
+    <string name="dialog_checkout_title">Please enter purchase price:</string>
 </resources>
